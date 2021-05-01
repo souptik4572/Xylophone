@@ -1,0 +1,84 @@
+body{
+    background-image: url("https://images.pexels.com/photos/165972/pexels-photo-165972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    color: #f5f5f5;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+}
+.key {
+    font-family: 'Pangolin', cursive;
+    font-size: 1.0em;
+}
+.title {
+    font-family: 'Parisienne', cursive;
+    color: #f5f5f5;
+}
+.content-bor {
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.content-bor .row{
+    margin: 1%;
+    text-align: center;
+    padding: 1%;
+}
+.round {
+    border-radius: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.first {
+    padding: 16%;
+    text-align: center;
+}
+.second {
+    padding: 14%;
+    text-align: center;
+}
+.third {
+    padding: 12%;
+    text-align: center;
+}
+.fourth {
+    padding: 10%;
+    text-align: center;
+}
+.fifth {
+    padding: 8%;
+    text-align: center;
+}
+.sixth {
+    padding: 6%;
+    text-align: center;
+}
+.seventh {
+    padding: 4%;
+    text-align: center;
+}
+.eighth {
+    padding: 2%;
+    text-align: center;
+}
+.selected {
+    border: 2px solid wheat;
+    opacity: 0.5;
+    font-weight: bold;
+}
+.footer p, h4 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: bold;
+}
+.modal {
+    border-radius: 20px;
+}
+blockquote{
+    font-family: 'Love Ya Like A Sister', cursive;
+    border-left: 5px solid #6d4c41;
+    border-radius: 10px;
+}

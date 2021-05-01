@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xylophone</title>
+    <link rel="icon" href="/public/assets/music.png" type="image/gif">
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left valign-wrapper">
+            <button data-target="modal1" class="btn-floating modal-trigger pulse white"><i class="material-icons brown-text text-darken-4">details</i></button>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4 class="center-align">Playing the Instrument</h4>
+                    <p>
+                        <p>There are mainly 8 keys in this musical instrument. And in order to make playing the instrument a little bit easy, we have added individual keys of the keyboard which will play the different notes.</p>
+                        <blockquote>
+                            C-major is represented by capital-A <br>
+                            D-major is represented by capital-S <br>
+                            E-major is represented by capital-D <br>
+                            F-major is represented by capital-F <br>
+                            G-major is represented by capital-H <br>
+                            A-major is represented by capital-J <br>
+                            B-major is represented by capital-K <br>
+                            C-minor is represented by capital-L <br>
+                        </blockquote>
+                        <p>Or you can use just click the appropriate tile to play the notes.</p>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>    
+                </div>
+            </div>
+        </div>
+        <div class="header right-align">
+            <h1>The <span class="title">Xylophone</span></h1>
+        </div>
+        <div class="content-bor">
+            <div class="row">
+                <div class="col s3">
+                    <div class="first purple darken-2 round hoverable" id="a-key">
+                        <p class="key">A</p>
+                        <p>#C-major</p>
+                        <p>DO</p>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="second blue darken-4 round hoverable" id="s-key">
+                        <p class="key">S</p>
+                        <p>#D-major</p>
+                        <p>RE</p>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="third blue darken-2 round hoverable" id="d-key">
+                        <p class="key">D</p>
+                        <p>#E-major</p>
+                        <p>MI</p>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="fourth green darken-4 round hoverable" id="f-key">
+                        <p class="key">F</p>
+                        <p>#F-major</p>
+                        <p>FA</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s3">
+                    <div class="fifth green darken-2 round hoverable" id="h-key">
+                        <p class="key">H</p>
+                        <p>#G-major</p>
+                        <p>SOL</p>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="sixth yellow accent-4 round hoverable" id="j-key">
+                        <p class="key">J</p>
+                        <p>#A-major</p>
+                        <p>LA</p>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="seventh orange darken-3 round hoverable" id="k-key">
+                        <p class="key">K</p>
+                        <p>#B-major</p>
+                        <p>SI</p>
+                    </div>
+                </div>
+                <div class="col s3">
+                    <div class="eighth red accent-4 round hoverable" id="l-key">
+                        <p class="key">L</p>
+                        <p>#C-minor</p>
+                        <p>DO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer center-align white-text">
+            <p>Made with ❤️ in India</p>
+        </div>
+        
+    </div>
+    <script src="/materialize/js/materialize.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.3/howler.js" integrity="sha256-FNAKr1U+8W8E3zROGSYO2dQKFHIpoGU/TVm8aGpGWUY=" crossorigin="anonymous"></script>
+    <script src="/public/js/main.js"></script>
+</body>
+</html>
